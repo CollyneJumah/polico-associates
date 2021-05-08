@@ -1,6 +1,6 @@
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+  --primaryColor: #211d71;
+  --redColor: #ed1b24;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -34,9 +34,42 @@
 }
 
 .container{
-  margin-top: 10px;
-  padding: 5px;
-  box-shadow: 1px 3px 5px  !important;
-  padding: 0 100 0 100;
+  /* margin-top: 10px;
+  padding: 5px; */
+  /* box-shadow: 1px 3px 5px  !important; */
 
+}
+.title1{
+  color: var(--primaryColor);
+}
+.title2{
+  color: var(--redColor);
+}
+
+.menu{
+  background-color: var(--primaryColor) !important;
+  border-radius: 5px 20px !important;
+}
+.nav{
+  /* border-bottom: 2px solid var(--redColor);
+  border-radius: 20px; */
+}
+h1,h2,h3,h4,h5,h6{
+  color: var(--primaryColor);
+}
+p{
+  text-align: justify;
+}
+hr{
+  padding-right: 40%;
+}
+
+.footer{
+  background-color: var(--primaryColor);
+  color: #fff;
+  padding: 10px;
+  box-shadow: 1px 3px 5px  !important;
+}
+.footer span{
+  padding: 10px;
 }
