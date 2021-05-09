@@ -1,4 +1,4 @@
-import RightContent from "./RightContent"
+import RightContent from "./CenterContent"
 import LeftContent from "./LeftContent"
 import SocialMedia from "../SocialMedia"
 const HomePage = () => {

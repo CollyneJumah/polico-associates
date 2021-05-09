@@ -14,7 +14,16 @@ const LeftContent = () => {
                 <em>Your Complicance Partner</em>
             </p>
             <hr />
-
+            
+            <div className="profile">
+                <img src="/images/paulProfileTransparent.png" 
+                    alt="" 
+                    width="100%"
+                    height="auto"
+                    className="mx-auto d-block rounded-circle img-responsive img-fluid"
+                    />
+                
+            </div>
             <Footer />
         </div>
     )

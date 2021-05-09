@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import SocialMedia from '../SocialMedia'
+import Links from './Links'
 
 const NavBar = () => {
     return (
@@ -20,22 +20,7 @@ const NavBar = () => {
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <Link className="nav-link active"
-                                aria-current="page"
-                                to="/service">Service
-                            </Link>  
-                        </li>
-                        <li className="nav-item">
-                            <Link 
-                                className="nav-link"
-                                to="/contact"
-                                >
-                                Contact
-                            </Link>
-                        </li>
-                    </ul>
+                    {/* <Links /> */}
                 </div>
 
                 {/* <SocialMedia /> */}
