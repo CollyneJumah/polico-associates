@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import SocialMedia from '../SocialMedia'
 
 const NavBar = () => {
     return (
@@ -36,6 +37,9 @@ const NavBar = () => {
                         </li>
                     </ul>
                 </div>
+
+                {/* <SocialMedia /> */}
+               
             </div>
         </nav>
     )

@@ -17,21 +17,23 @@ const Services = () => {
             </p>
                 <div>
                     <ul style={{listStyle:'none'}}>                       
-                        <li><h6>Tax Planning</h6></li>
+                        <li><h6><span className="badge bg-danger rounded-pill">1</span> Tax Planning</h6></li>
                         <p>
                             We advice on tax implecations on transactions,t ax optimal organization structures 
                             and assist in making the applications 
                             to the Ministry of Finance for tax exemptions and remissions.
                         </p>
-                        <li><h6>Tax Compliance</h6></li>
+                        <li> 
+                            <h6><span className="badge rounded-pill bg-danger">2</span>  Tax Compliance</h6>
+                        </li>
                         <p>
                             We assist in computing tax liabilities, completing returns and submit them to the Tax Authority.
                         </p>
-                        <li><h6>Tax Claims</h6></li>
+                        <li><h6><span className="badge rounded-pill bg-danger">3</span> Tax Claims</h6></li>
                         <p>
                             We audit and Lodge claims of VAT and any other overpaid taxes, and also supply for setoff of overpaid taxes againist other tax liability.
                         </p>
-                        <li><h6>Tax Negotiation</h6></li>
+                        <li><h6><span className="badge rounded-pill bg-danger">4</span> Tax Negotiation</h6></li>
                         <p>
                             We negotiate on behaif of our clients for reduction of additional tax that maybe levied & for suitable payment schedule.
                         </p>
