@@ -7,7 +7,7 @@ const HomePage = () => {
            <LeftContent />
            <RightContent />
            
-           <div className="mx-auto col-lg-3 col-md-6 col-sm-12">
+           <div className="col-lg-3 ">
                <SocialMedia />
            </div>
        </div>

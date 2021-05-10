@@ -1,4 +1,3 @@
-import FaceBook from './FaceBook';
 import Instagram from './Instagram';
 import Twitter from './Twitter';
 
