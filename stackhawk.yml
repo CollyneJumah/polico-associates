@@ -1,0 +1,9 @@
+# stackhawk configuration for policco_react_app
+app:
+  # An applicationId obtained from the StackHawk platform.
+  applicationId: dc4adae7-b747-4cac-aee0-fa59d67fce76 # (required)
+  # The environment for the applicationId defined in the StackHawk platform.
+  env: Development # (required)
+  # The url of your application to scan
+  host: http://localhost:3000/ # (required)
+ 
