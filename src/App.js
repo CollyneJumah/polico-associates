@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />
-        <div className="container-fluid">
+        <div className="container">
           <HomePage />
         </div>
       </div>
